@@ -14,6 +14,10 @@ nav {
 }
 
 #watch{
+    background-image: url("images/design-assets/bgk-middle.png");
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat
 
 }
 
@@ -30,5 +34,5 @@ nav {
 }
 
 footer{
-    
+
 }
