@@ -3,8 +3,40 @@
 }
 
 nav {
-
+    background-color:#352B59
 }
+
+
+.horizontal-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: roboto-black;
+  }
+  .horizontal-nav li {
+    display: inline-block;
+    min-width: 5em;
+    margin: 0 2em;
+  }
+  .horizontal-nav a {
+    text-decoration: none;
+    display: block;
+    font-family: Arial;
+    font-size: 18px;
+    position: relative;
+    color:white;
+    padding: 0.5em 0;
+  }
+
+  .horizontal-nav a:hover {
+    color: ##04D4C8;
+  }
+
+
+
+
+
 #hero {
 
 }
