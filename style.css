@@ -2,8 +2,14 @@
     margin: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+
 nav {
-    background-color:#352B59;git
+    background-color:#352B59;
 }
 
 
