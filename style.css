@@ -4,19 +4,31 @@
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
 }
 
+#logo {
+  position:absolute;
+  top:0;
+  left: 1%;
+  height: 50px;
+}
+
+#logo-text {
+  
+}
 
 nav {
-    background-color:#352B59;
+    background-color:#2F284E;
+    height: 80px;
+    opacity: 0.9;
 }
 
 
 .horizontal-nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     text-align: center;
     font-size: roboto-black;
   }
@@ -44,7 +56,19 @@ nav {
 
 
 #hero {
-
+  background-image: url(images/design-assets/bgk-header.png);
+  height: 550px; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; 
+}
+.hero{
+  color: white;
+  width: 30%;
+  margin:0 auto;
+  text-align:center;
 }
 
 #our_story{
