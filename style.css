@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    /*border: 1px solid red; */
 }
 
 .header {
@@ -133,15 +134,14 @@ nav {
     background-color: white;
 }
 
-
-
 #watch{
     background-image: url("images/design-assets/bgk-middle.png");
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
-
 }
+
+
 #playtext{
   height: 100%;
   display: flex;
@@ -159,18 +159,62 @@ nav {
 
 
 
-#expertise{
+#contact-client {
+  margin: 100px 0px;
+  width: 100%;
+}
+
+.col-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.leftcolumn, .rightcolumn {
+  width: 30%;
+  height: 500px;
+}
+
+.leftcolumn h2{
+  padding-left: 4%;
+  padding-bottom: 5%
+}
+
+.rightcolumn h2{
+  padding-left: 9%;
+}
+.inner-leftcolumn, .inner-rightcolumn {
+  width: 50%;
+  height: 500px;
+  padding: 10% 10%;
+}
+.inner-leftcolumn img, .inner-rightcolumn img {
+  display: block;
+  max-width: 80%;
+  padding-bottom: 30%;
+}
+
+.leftcolumn input, textarea {
+  display: block;
+  width: 90%;
+  margin: 6% 20px;
+  height: 40px;
 
 }
 
-#team{
-
+textarea {
+  height: 100px
 }
 
-#contact_client{
-
-}
-
-footer{
-
+input[type=submit] {
+  background-color: white;
+  border: none;
+  color: rgba(0, 224, 208, 1);
+  padding: 15px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 150px;
+  border: solid 1px rgba(0, 224, 208, 1);
 }
