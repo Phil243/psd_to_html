@@ -131,7 +131,7 @@ hr{
     font-weight: bold;
     color: rgba(0, 224, 208, 1);
     padding: 10px;
-    background-color: white;
+    background-color: transparent;
 }
 
 #watch{
@@ -163,6 +163,48 @@ hr{
 
 
 
+#expertise{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 85px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#expertise td {
+  padding: 20px;
+  text-align: center;
+
+}
+#expertise td p {
+  margin-bottom: 30px;
+}
+#expertise td p {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+}
+#expertise hr {
+}
+
+#expertise td h3 {
+  margin-top: 20px;
+}
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+table td, table th {
+  border: 0.5px solid gainsboro;
+}
 #contact-client {
   margin: 100px 0px;
   width: 100%;
