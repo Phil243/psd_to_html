@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    /*border: 1px solid red; */
 }
 
 .header {
@@ -82,7 +83,7 @@ nav {
   font-size:3rem;
 }
 
-#hero hr{
+hr{
   margin-bottom:50px;
   border: 1px solid #04D4C8;
   width: 50px;
@@ -133,15 +134,18 @@ nav {
     background-color: transparent;
 }
 
-
-
 #watch{
     background-image: url("images/design-assets/bgk-middle.png");
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
 
+    background-size: cover;
+
+
 }
+
+
 #playtext{
   height: 100%;
   display: flex;
@@ -201,15 +205,154 @@ table {
 table td, table th {
   border: 0.5px solid gainsboro;
 }
+#contact-client {
+  margin: 100px 0px;
+  width: 100%;
+}
 
-#team{
+.col-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.leftcolumn, .rightcolumn {
+  width: 30%;
+  height: 500px;
+}
+
+.leftcolumn h2{
+  padding-left: 4%;
+  padding-bottom: 5%
+}
+
+.rightcolumn h2{
+  padding-left: 9%;
+}
+.inner-leftcolumn, .inner-rightcolumn {
+  width: 50%;
+  height: 500px;
+  padding: 10% 10%;
+}
+.inner-leftcolumn img, .inner-rightcolumn img {
+  display: block;
+  max-width: 80%;
+  padding-bottom: 30%;
+}
+
+.leftcolumn input, textarea {
+  display: block;
+  width: 90%;
+  margin: 6% 20px;
+  height: 40px;
 
 }
 
+
+#team{
+  background-image: url("images/design-assets/bgk-header.png");
+  height: 712px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+#top-team{
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:white;
+}
+#top-team h2{
+  margin: 1rem;
+}
+#top-team p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hiring-button{
+  border: solid 1px rgba(0, 224, 208, 1);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: rgba(0, 224, 208, 1);
+  padding: 10px;
+  background-color: transparent;
+  align-self: center;
+  margin-top: 1.5rem;
+}
+#personals{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:row;
+  color:white;
+}
+#personals div{
+  border: solid rgba(255, 255, 255, 0.5) 1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+  padding: 1em 4em;
+  margin: 0.5rem;
+}
+
+textarea {
+  height: 100px
+
+}
+#personals div h2{
+  padding: 1em 1em 0 1em;
+  margin: 1rem;
+}
+#personals div p{
+  padding: 5px 0 0 0;
+  margin-top: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  opacity: 0.5;
+}
+#bottom-team{
+  height: 25%;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+#bottom-team p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.whitebg{
+  height:229px;
+  width: 220px;
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  border: 10px solid red;
+}
+.hr-white{
+  border: 1px solid white;
+  opacity: 0.5;
+  margin-top: 1rem;
+}
 #contact_client{
 
 }
-
-footer{
+input[type=submit] {
+  background-color: white;
+  border: none;
+  color: rgba(0, 224, 208, 1);
+  padding: 15px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 150px;
+  border: solid 1px rgba(0, 224, 208, 1);
 
 }
